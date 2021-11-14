@@ -18,7 +18,7 @@ Open git bash, and clone this repository by running the following command
 
 ##### `git clone https://github.com/abhineetpandey10/gitdetails.git`
 
-Now, open the command terminal, navigate into the directory where you cloned this repository using the **`cd`** command, and then hop into the **ExpenseBuddy** directory by using the command **`cd ExpenseBuddy`**
+Now, open the command terminal, navigate into the directory where you cloned this repository using the **`cd`** command, and then hop into the **gitdetails** directory by using the command **`cd gitdetails`**
 * Navigate into the **client** folder by using the command **`cd gitdetails/client`**, and run the command **`npm install`**. This would install all the required dependencies for the client side of the project.
 * Now, navigate into the **server** folder by using the command **`cd ../server`**, and run the command **`npm install`**. 
 
