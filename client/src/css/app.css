@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'rubikBold';
+    src: url('../fonts/Rubik-Bold.ttf')
+}
+@font-face {
+    font-family: 'rubikReg';
+    src: url('../fonts/Rubik-Regular.ttf');
+}
+*{
+    margin:0;
+    font-family: 'rubikReg';
+}
+.title, .title span{
+    font-family: 'rubikBold';
+}
+input[type="text"] {
+    border-radius:2px;
+    box-shadow:0 0 4px 1px lightsteelblue;
+    border:none;
+    width:250px;
+    font-size:larger;
+    padding:4px 8px 4px 8px;
+    margin-bottom: 25px;
+}
+input[type="text"]:focus {
+    box-shadow:0 0 4px 2px lightsteelblue;
+    border: none;
+    outline: none;
+}
+.button {
+    cursor: pointer;
+    transition:750ms;
+    border: 2px solid steelblue;
+    border-radius: 6px;
+    padding: 4px 8px 4px 8px;
+    font-size: large;
+    font-weight: bold;
+    color:steelblue;
+    text-align: center;
+}
+.button:hover {
+    transition:750ms;
+    background-color: steelblue;
+    color:white;
+}

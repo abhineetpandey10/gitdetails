@@ -1,0 +1,60 @@
+const styles={
+    container:
+    {
+        margin:'25px'
+    },
+    loading:
+    {
+        fontSize:'x-large',
+        fontWeight:'bold',
+        color:'steelblue',
+        marginBottom:'25px',
+        width:"97%"
+    },
+    heading:
+    {
+        fontSize:'x-large',
+        fontWeight:'bold',
+        color:'#EfEffe',
+        width:"97%",
+        backgroundColor:'steelblue'
+    },
+    detailstable:
+    {
+        width:"97%",
+        marginBottom:'50px',
+    },
+    th:
+    {
+        backgroundColor:'lightgray',
+        color:'darkslategray',
+        fontSize:'medium',
+        fontWeight:'bolder',
+        padding:'3px 8px 3px 8px'
+    },
+    cell:
+    {
+        textAlign:'center',
+        backgroundColor:'#EfEffe',
+        color:'#646363',
+        fontWeight:'normal',
+        padding:'2px 4px 2px 4px'
+    },
+    reponame:
+    {
+        textAlign:'center',
+        backgroundColor:'#EfEffe',
+        color:'gray'
+    },
+    closeBtn:
+    {
+        fontSize:'x-large',
+        fontWeight:'bolder',
+        color:'red',
+        marginLeft:'92%',
+        cursor:"pointer",
+        padding:'10px'
+    }
+}
+
+export default styles;
